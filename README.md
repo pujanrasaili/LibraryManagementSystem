@@ -1,23 +1,23 @@
-# 📚 Digital Library Management System
+# Digital Library Management System
 
 A desktop Library Management System built with Java, JavaFX, and MySQL as part of the OOP Architecture and Implementation assignment (Week 9) for CIS096-1 at the University of Bedfordshire.
 
-## 🎯 Project Overview
+## Project Overview
 
 This system helps librarians manage books, members, borrowing transactions, and fine collections through a modern and user-friendly JavaFX interface.
 
-## ✨ Features
+## Features
 
-- 🔐 **Librarian Login** — Secure authentication system
-- 📖 **Book Management** — Add, Edit, Delete, Search books
-- 👥 **Member Management** — Register Student, Faculty, Public members
-- 📤 **Issue Book** — Issue books with automatic due date calculation
-- 📥 **Return Book** — Process returns with automatic fine calculation
-- 💰 **Fine Management** — Track and mark fines as paid
-- 📋 **Reports** — View overdue books, inventory, and member lists
-- 📊 **Dashboard** — Real-time stats and active borrowings
+-  **Librarian Login** — Secure authentication system
+-  **Book Management** — Add, Edit, Delete, Search books
+-  **Member Management** — Register Student, Faculty, Public members
+-  **Issue Book** — Issue books with automatic due date calculation
+-  **Return Book** — Process returns with automatic fine calculation
+-  **Fine Management** — Track and mark fines as paid
+-  **Reports** — View overdue books, inventory, and member lists
+-  **Dashboard** — Real-time stats and active borrowings
 
-## 🏗️ Project Structure
+## Project Structure
 ```
 src/
 └── com/library/
@@ -28,7 +28,7 @@ src/
     └── util/          → AlertUtil
 ```
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Language:** Java 25
 - **UI Framework:** JavaFX 21
@@ -37,7 +37,7 @@ src/
 - **IDE:** IntelliJ IDEA
 - **Version Control:** Git & GitHub
 
-## 💡 OOP Concepts Applied
+## OOP Concepts Applied
 
 | Concept | Implementation |
 |---|---|
@@ -48,7 +48,7 @@ src/
 | DAO Pattern | Separate DAO classes for each entity |
 | Polymorphism | getLoanDays() and getFinePerDay() in Member class |
 
-## 📋 Loan & Fine Policy
+## Loan & Fine Policy
 
 | Member Type | Loan Period | Fine per Day |
 |---|---|---|
@@ -56,7 +56,7 @@ src/
 | Faculty | 30 days | £3 |
 | Public | 7 days | £10 |
 
-## 🗄️ Database Setup
+## Database Setup
 ```sql
 CREATE DATABASE library_db;
 USE library_db;
@@ -64,7 +64,7 @@ USE library_db;
 -- books, members, transactions, fines
 ```
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository
 2. Open in IntelliJ IDEA
@@ -74,7 +74,7 @@ USE library_db;
 6. Run `Main.java`
 7. Login with: **admin / library123**
 
-## 👨‍💻 Author
+## Author
 
 **Pujan Rasaili**
 Student ID: 2528898
